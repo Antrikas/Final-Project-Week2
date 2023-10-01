@@ -80,8 +80,12 @@ p {
     margin-top: 28px;
 }
 
-.email__section {
 
+
+.otc {
+    width: 100%;
+    padding-top: 20px;
+    box-sizing: border-box;
 }
 
 .button {
