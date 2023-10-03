@@ -6,20 +6,23 @@
    font-family: 'Roboto', sans-serif;
 }
 
-body {
-    max-width: 100vh;
-    overflow-x: hidden;
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
 }
 
-nav {
+.nav__container {
     width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .logo {
     margin: right 0.7em;;
     width: 45px;
+    height: 50px;
 }
 
 .logo__text{
@@ -28,103 +31,33 @@ nav {
     color: #243e63;
 }
 
-p {
-    line-height: 1.5;
-    margin-top: 28px;
-}
-
-.nav__container {
-    width: 100%;
-    padding: 0 24px;
+.nav__links {
+    list-style-type: none;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+    }
 
+    .nav__link {
+        margin-right: 20px;
+        text-decoration: none;
+        font-size: 16px;
+        color: black;
+        font-weight: bold;
+    }
 
-.purple {
-    color: #6030b1;
-}
-
-
-
-ul {
-    display: flex;
-
-}
-
-li {
-   list-style-type: none;
-}
-
-.nav__link {
-    margin-left: 16px;
-    text-decoration: none;
-    font-size: 16px;
-    color: black;
-    padding: 8px;
-}
 
 .nav__link--primary {
-    background-color: #6030b1;
-    padding: 8px 20px;
-    border-radius: 50px;
-    color: white;
-    transition: all 300ms ease;
+        background-color: #6030b1;
+        padding: 8px 20px;
+        border-radius: 50px;
+        color: white;
+        transition: all 300ms ease;
+    }
+
+.nav__link:hover {
+    text-decoration: underline;
 }
 
-/*
 
-LANDING
-
-*/
-
-.header {
-height: calc(100vh-80px);
-padding: 50px 4px;
-}
-
-.header__container {
-    width: 100%;
-    max-width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-top: 20px;
-}
-
-.header__discription--title {
-font-size: 36px;
-padding: 0;
-color: black;
-box-sizing: border-box;
-
-}
-
-.header__discription {
-    width: 100%;
-    margin: 0 auto;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.header__discription--image{
-    width: 100%;
-    height: 100%;
-    padding-top: 16px;
-    opacity: 0.5;
-    padding: 80px;
-}
-
-.header__image--wrapper {
-    width: 100%;
-    max-width: 1200px;
-    height: 100%;
-    
-}
 
 
 .row {
@@ -133,11 +66,132 @@ box-sizing: border-box;
     margin: 0 auto;
 }
 
-.button {
-   background-color: #6030b1;
-   color: white;
-   padding: 8px 20px; 
-   border-radius: 50px;
-   transition: all 300ms ease;
+
+p {
+    line-height: 1.5;
+    margin-top: 28px;
 }
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+   list-style-type: none;
+}
+
+/*
+
+LANDING
+
+*/
+
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.header__container {
+    width: 100%;
+    max-width: 720px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row__column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__discription {
+    flex: 1;
+    max-width: 50%;
+}
+
+.header__discription--title {
+font-size: 36px;
+margin-bottom: 10px;
+color: black;
+
+
+}
+
+.purple {
+    color: #6030b1;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input [ type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.email__section {
+    text-align: center;
+}
+
+.button {
+    background-color: #6030b1;
+    color: white;
+    padding: 10px 20px; 
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+ }
+ 
+ .header__discription--para-2 {
+    margin-top: 20px;
+    font-weight: bold;
+    color: gray;
+}
+
+.header__discription--image{
+    width: 100%;
+    height: 100%;
+    padding-top: 16px;
+    opacity: 0.5;
+    
+}
+
+.header__image--wrapper {
+    max-width: 100%;
+    height: auto;
+}
+
+.hearer__image--wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
 
