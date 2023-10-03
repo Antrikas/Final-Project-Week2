@@ -226,6 +226,9 @@ FEATURES
     flex-direction: column;
 }
 
+.purple {
+    color: #6415ff;
+}
 
 /*
 
@@ -242,4 +245,7 @@ FEATURES
     max-width: 1200px;
     margin: 0 auto;
  } 
+ .purple {
+    color: #6415ff;
+}
 
