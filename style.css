@@ -117,19 +117,19 @@ header {
 
 
 
-.header__discription {
+.header__description {
     width: 40;
     flex-direction: column;
     align-items: center;
 }
 
-.header__discription--title {
+.header__description--title {
 font-size: 36px;
 margin-bottom: 10px;
 color: black;
 }
 
-.header__discription--para{
+.header__description--para{
 font-size: 16px;
 }
 
@@ -175,7 +175,7 @@ label {
  }
  
 
-.header__discription--image{
+.header__description--image{
     width: 100%;
     height: 100%;
     padding-top: 16px;
@@ -235,7 +235,7 @@ FEATURES
     max-height: 65px;
     }
 
-.service__discription {
+.service__description {
     display: flex;
     flex-direction: column;
 }
@@ -251,7 +251,7 @@ FEATURES
     font-weight: 800;
     text-align: center;
 }
-.header__discription--para-2 {
+.header__description--para-2 {
     margin-top: 20px;
     font-weight: bold;
     color: gray;
@@ -322,3 +322,38 @@ STEPS
     flex-direction: column;
 }
 
+.steps__image--wrapper{
+
+}
+
+.steps__image {
+
+}
+
+.steps__description {
+
+}
+
+.section__title {
+
+}
+
+.section__heading{
+
+}
+
+.steps {
+
+}
+
+.step {
+
+}
+
+.step_number {
+
+}
+
+.step__text--wrapper {
+    
+}
