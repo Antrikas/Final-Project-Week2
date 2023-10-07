@@ -324,7 +324,7 @@ FEATURES
 .quality__description{
     display: flex;
     flex-direction: column;
-    width: 48%;
+    width: 50%;
 }
 
 .section__title {
@@ -371,7 +371,7 @@ button {
 }
 
 .quality__image--wrapper {
-    width: 48%;
+    width: 50%;
 }
 
 .quality__image{
@@ -402,11 +402,11 @@ STEPS
 }
 
 .steps__image--wrapper{
-
+width: 50%
 }
 
 .steps__image {
-
+width: 100%;
 }
 
 .steps__description {
