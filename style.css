@@ -723,3 +723,41 @@ PRICING
     font-weight: 700;
     transition: all 300ms ease;
 }
+
+.plan--blue{
+    background: linear-gradient( 135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100% );
+}
+
+.white {
+    color: white;
+}
+
+.price--white { 
+        margin: 12px 0;
+        color: white;
+        font-size: 48px;
+        font-weight: 700;
+    } 
+    .name--white{
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .duration--white {
+        color: white;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .plan__btn--white {
+        padding: 16px 32px;
+        border-radius: 999px;
+        border: none;
+        font-weight: 700;
+        transition: all 300ms ease;
+    }
+
+    .plan__btn {
+        color: #6415ff;
+    }
