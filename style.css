@@ -226,7 +226,6 @@ FEATURES
 .row {
     width: 100%;
     max-width: 1200px;
-    padding: 0 24px;
     margin: 0 auto;
 }
 
@@ -485,9 +484,17 @@ VALUES
     padding: 80px 0;
 }
 
-.values__wrapper {
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;  
+}
+
+.value__wrapper {
     display: flex;
     justify-content: space-between;
+    
 }
 
 .values__description {
@@ -518,6 +525,7 @@ VALUES
     display: flex;
     margin-top: 24px;
 }
+
 .value__title--wrapper {
     display: flex;
     align-items: center;
@@ -541,4 +549,41 @@ VALUES
     margin-top: 24px;
     line-height: 1.5;
     color: #718096;
+}
+
+.value__img--wrapper2 {
+    display: flex;
+    border: 2px solid pink;
+    background-color: pink;
+    padding: 8px;
+    border-radius: 999px;
+    height: 50%;
+}
+
+
+.value__btn {
+    margin-top: 48px;
+}
+
+
+.btn {
+    background-color: #6415ff;
+    color: white;
+    border-radius: 9999px;
+    border: none;
+    padding: 14px 24px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.button {
+    cursor: pointer;
+}
+
+.values__image--wrapper {
+    width: 48%;
+}
+
+.values__image{
+    width: 100%;
 }
