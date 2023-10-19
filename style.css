@@ -858,6 +858,12 @@ PRICING
     margin-top: 20px;
 }
 
+.plan__btn:hover{
+box-shadow: 0px 2px 5px 1px #24242459;
+transform: translateY(-1px);
+transform: translateX(1px);;
+}
+
 .plan__btn--wrapper {
     padding: 32px;
     display: flex;
@@ -1014,6 +1020,11 @@ footer {
     margin-bottom: 12px;
 }
 
+.footer__link--li {
+    margin-top: 12px;
+  }
+  
+
 .footer__link--wrapper {
     display: flex;
     flex-direction: column;
@@ -1051,6 +1062,10 @@ a {
     align-items: center;
 }
 
+.footer__logo--wrapper:hover .footer__logo--text {
+    color: #fff;
+  }
+
 .logo {
     background-color: white;
     width: 40px;
@@ -1078,6 +1093,14 @@ a {
     justify-content: center;
     align-items: center;
 }
+
+.facebook {
+    padding: 8px 12px;
+}
+
+.footer__social--link:hover {
+    background-color: #ffffff85;
+  }
 
 /* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
 
