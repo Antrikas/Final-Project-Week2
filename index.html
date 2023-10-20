@@ -27,6 +27,34 @@
                         <li><a href class="nav__link link__hover-effect">Login</a></li>
                         <li><a href class="nav__link nav__link--primary">Sign Up</a></li>
                     </ul>
+                <button class="btn__menu" onclick="openMenu()">
+                    <i class="fas fa-bars" aria-hiden="true"></i>
+                </button>
+                <div class="menu__backdrop">
+                    <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                        <i class="fas fa-times" aria-hidden="true"></i>
+                    </button>
+                    <ul class="menu__links">
+                        <li class="menu__list">
+                            <a href="#" class="menu__link link__hover-effect" onclick="closeMenu()">About</a>
+                        </li>
+                        <li class="menu__list">
+                            <a href="#features" class="menu__link link__hover-effect" onclick="closeMenu()">Blog</a>
+                        </li>
+                        <li class="menu__list">
+                            <a href="#Pricing" class="menu__link link__hover-effect" onclick="closeMenu()">Pricing</a>
+                        </li>
+                        <li class="menu__list">
+                            <a href="#" class="menu__link link__hover-effect" onclick="closeMenu()">Contact Us</a>
+                        </li>
+                        <li class="menu__list">
+                            <a href="#" class="menu__link link__hover-effect" onclick="closeMenu()">Login</a>
+                        </li>
+                        <li class="menu__list menu__list--primary">
+                            <a href="#" class=" nav__link--primary" onclick="closeMenu()">Sign Up</a>
+                        </li>
+                    </ul>
+                </div>
                 </div>
             </div>
         </nav>
@@ -40,8 +68,7 @@
                         <form action="#" method="POST">
                             <input type="text" id="email" name="email" placeholder="Enter your email address" required>
                             <div class="header__btn--wrapper">
-
-                                <button class="btn">Get Started</button>
+                            <button class="btn header__btn">Get Started</button>
                             </div>
                         </form>
                         <p class="header__description--para-2">OUR TRUSTED CUSTOMERS</p>
